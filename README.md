@@ -1,5 +1,5 @@
 
-# Online Bus Ticket Booking System (starter template)
+# Online Bus Ticket Booking System
 
 This is just a starter template containing Navbar, Footer, and Theme Switcher Section. And also installed the required resources like react icons, framer motion, and other basic requirements.
 
@@ -12,7 +12,7 @@ Install with npm
 Clone the project
 
 ```bash
-  git clone https://github.com/gtech-official08/bus-ticket-booking-setup.git
+  git remote add origin https://github.com/tayade-aniket/bus-ticket-booking.git
 ```
 
 Remove `.git` an `README.md` if you want to push this repo on your github.com.
@@ -108,28 +108,6 @@ To Enable `Dark & Light Mode` in the system.
 Live Demo:- 
 
 
-### Full Video Tutorial
-Video Link:- https://www.youtube.com/watch?v=1Guddi2MbOM 
-
-
-## Author
-
-- [@gtechofficial08](https://github.com/gtech-official08)
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates Generator](https://readme.so/)
-
-
-## Support
-
-For support, email gtech.official08@gmail.com or DM us on Instagram.
-
-
-## Appendix
-
-Don't Forgot to Subscribe, Like, Comment, & Share.
 
 
 

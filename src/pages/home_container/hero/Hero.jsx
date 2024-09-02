@@ -2,7 +2,7 @@ import React from "react";
 import { easeIn, motion } from "framer-motion";
 
 // images
-import Bus2 from "../../../assets/bus5.png";
+import Bus2 from "../../../assets/red.png";
 
 const Hero = () => {
 
@@ -41,7 +41,7 @@ const Hero = () => {
               transition={{ duration: 2, ease: "linear", delay: 0.4 }}
             >
               Reserve Your Bus
-              <span className="text-violet-400 tracking-wider">Tickets</span>
+              <span className="text-red-400 tracking-wider">Tickets</span>
               Now
             </motion.h1>
 
@@ -55,7 +55,7 @@ const Hero = () => {
             </motion.p>
           </motion.dev>
 
-          <motion.button className="w-fit bg-violet-700 hover:bg-violet-800 text-neutral-50 font-medium py-3 px-6 rounded-md ease-in-out duration-300">
+          <motion.button className="w-fit bg-red-700 hover:bg-red-800 text-neutral-50 font-medium py-3 px-6 rounded-md ease-in-out duration-300">
             Reserve Seat Now
           </motion.button>
 

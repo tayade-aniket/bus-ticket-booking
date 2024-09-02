@@ -15,9 +15,27 @@ const Search = () => {
               className="w-full appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
             >
               <option value="">Select Location</option>
-              <option value="location1">Location 1</option>
-              <option value="location2">Location 2</option>
-              <option value="location3">Location 3</option>
+              <option value="Ahmednagar">Ahmednagar</option>
+              <option value="Akola">Akola</option>
+              <option value="Amravati">Amravati</option>
+              <option value="Aurangabad">Aurangabad</option>
+              <option value="Beed">Beed</option>
+              <option value="Bhandara">Bhandara</option>
+              <option value="Chandrapur">Chandrapur</option>
+              <option value="Hingoli">Hingoli</option>
+              <option value="Jalgaon">Jalgaon</option>
+              <option value="Kolhapur">Kolhapur</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Nagpur">Nagpur</option>
+              <option value="Nanded">Nanded</option>
+              <option value="Nashik">Nashik</option>
+              <option value="Pune">Pune</option>
+              <option value="Ratnagiri">Ratnagiri</option>
+              <option value="Satara">Satara</option>
+              <option value="Solapur">Solapur</option>
+              <option value="Wardha">Wardha</option>
+              <option value="Washim">Washim</option>
+              <option value="Yavatmal">Yavatmal</option>
             </select>
           </div>
 
@@ -31,9 +49,27 @@ const Search = () => {
               className="w-full appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
             >
               <option value="">Select Location</option>
-              <option value="location4">Location 4</option>
-              <option value="location5">Location 5</option>
-              <option value="location6">Location 6</option>
+              <option value="Ahmednagar">Ahmednagar</option>
+              <option value="Akola">Akola</option>
+              <option value="Amravati">Amravati</option>
+              <option value="Aurangabad">Aurangabad</option>
+              <option value="Beed">Beed</option>
+              <option value="Bhandara">Bhandara</option>
+              <option value="Chandrapur">Chandrapur</option>
+              <option value="Hingoli">Hingoli</option>
+              <option value="Jalgaon">Jalgaon</option>
+              <option value="Kolhapur">Kolhapur</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Nagpur">Nagpur</option>
+              <option value="Nanded">Nanded</option>
+              <option value="Nashik">Nashik</option>
+              <option value="Pune">Pune</option>
+              <option value="Ratnagiri">Ratnagiri</option>
+              <option value="Satara">Satara</option>
+              <option value="Solapur">Solapur</option>
+              <option value="Wardha">Wardha</option>
+              <option value="Washim">Washim</option>
+              <option value="Yavatmal">Yavatmal</option>
             </select>
           </div>
 
@@ -75,7 +111,7 @@ const Search = () => {
           </div>
 
           <div className="">
-            <button className="w-full px-4 h-12 bg-violet-600 text-neutral-50 text-base font-normal rounded-md">
+            <button className="w-full px-4 h-12 bg-red-600 text-neutral-50 text-base font-normal rounded-md">
                 Check Availability
             </button>
           </div>

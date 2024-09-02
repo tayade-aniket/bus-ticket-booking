@@ -14,7 +14,7 @@ const Category = () => {
             Category
         </h1>
 
-        <Link to={"/bus"} className='text-violet-600'>View All</Link>
+        <Link to={"/bus"} className='text-red-600'>View All</Link>
       </div>
 
       <div className="grid grid-cols-3 gap-6">

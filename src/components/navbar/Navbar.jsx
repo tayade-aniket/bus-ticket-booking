@@ -50,7 +50,7 @@ const Navbar = () => {
                             <Link
                                 to={link.href}
                                 onClick={handleClose}
-                                className="hover:text-violet-600 ease-in-out duration-300"
+                                className="hover:text-red-600 ease-in-out duration-300"
                             >
                                 {link.label}
                             </Link>
@@ -59,15 +59,15 @@ const Navbar = () => {
                 </ul>
 
                 <div className="flex md:items-center items-start gap-x-5 gap-y-2 flex-wrap md:flex-row flex-col text-base font-medium text-neutral-800">
-                    <div className="relative bg-violet-600 rounded-md px-8 py-2 w-fit cursor-pointer">
-                        <div className="absolute top-[50%] -left-6 translate-y-[-50%] w-9 h-9 rounded-full bg-violet-600 border-4 border-neutral-100 dark:border-neutral-900 flex items-center justify-center">
+                    <div className="relative bg-red-600 rounded-md px-8 py-2 w-fit cursor-pointer">
+                        <div className="absolute top-[50%] -left-6 translate-y-[-50%] w-9 h-9 rounded-full bg-red-600 border-4 border-neutral-100 dark:border-neutral-900 flex items-center justify-center">
                             <FaPhone className='text-neutral-50 text-sm' />
                         </div>
                         <div className="space-y-0.5">
                             <p className="text-xs text-neutral-200 font-light">
                                 Need Help?
                             </p>
-                            <p className="text-xs font-normal text-neutral-50 tracking-wide">+91 1234567890</p>
+                            <p className="text-xs font-normal text-neutral-50 tracking-wide">+91 99999 00000</p>
                         </div>
                     </div>
                     {/* Theme */}
