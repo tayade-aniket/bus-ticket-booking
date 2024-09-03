@@ -86,7 +86,7 @@ const BusSeatLayout = () => {
         </div>
 
         {/* Instructions */}
-        <div className="space-y-3 px-5 w-30">
+        <div className="space-y-3 px-3 w-30">
           <div className="flex items-center gap-x-2">
             <MdOutlineChair className="text-lg text-neutral-500 -rotate-90" />
             <p className="text-neutral-900 dark:text-neutral-200 text-sm font-normal">

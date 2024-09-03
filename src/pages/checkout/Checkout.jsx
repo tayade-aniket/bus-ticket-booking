@@ -3,14 +3,14 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Checkout = () => {
   return (
-    <div className="w-full lg:px-28 md:px-16 sm:px-7 px-4 mt-[13ch] mb-[8ch] space-y-10">
-      <div className="grid grid-cols-5 gap-16 items-center">
-        <div className="col-span-3 space-y-7 pr-20">
+    <div className="w-full px-4 mt-[13ch] mb-[8ch] space-y-10 lg:px-28 md:px-16 sm:px-7">
+      <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16 items-start">
+        <div className="col-span-1 lg:col-span-3 space-y-7 lg:pr-20">
           <h2 className="text-xl text-neutral-800 dark:text-neutral-100 font-medium">
             Passenger Information
           </h2>
           <form className="space-y-6">
-            <div className="">
+            <div>
               <label htmlFor="fullname" className="block mb-2 font-semibold">
                 Full Name
               </label>
@@ -19,11 +19,11 @@ const Checkout = () => {
                 name="fullname"
                 id="fullname"
                 placeholder="e.g. Klaus Tayadeson"
-                className="w-full appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
+                className="w-full text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
               />
             </div>
 
-            <div className="">
+            <div>
               <label htmlFor="email" className="block mb-2 font-semibold">
                 Email Address
               </label>
@@ -32,43 +32,43 @@ const Checkout = () => {
                 name="email"
                 id="email"
                 placeholder="e.g. klaustayadeson@gamil.com"
-                className="w-full appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
+                className="w-full text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
               />
               <small className="block mt-1 text-xs text-neutral-500 dark:text-neutral-600 font-normal">
                 You will get your tickets via this email address.
               </small>
             </div>
 
-            <div className="">
+            <div>
               <label htmlFor="phone" className="block mb-2 font-semibold">
                 Phone Number
               </label>
               <input
-                type="number"
+                type="tel"
                 name="phone"
                 id="phone"
                 placeholder="e.g. +91 99999 00000"
-                className="w-full appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
+                className="w-full text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
               />
             </div>
 
-            <div className="">
+            <div>
               <label htmlFor="altphone" className="block mb-2 font-semibold">
                 Alternative Phone Number
               </label>
               <input
-                type="number"
+                type="tel"
                 name="altphone"
                 id="altphone"
                 placeholder="e.g. +91 88888 22222"
-                className="w-full appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
+                className="w-full text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"
               />
             </div>
           </form>
         </div>
 
-        <div className="col-span-2 space-y-">
-          <div className="bg-neutral-200/50 dark:bg-neutral-900/70 rounded-md py-5 px-7 ">
+        <div className="col-span-1 lg:col-span-2">
+          <div className="bg-neutral-200/50 dark:bg-neutral-900/70 rounded-md py-5 px-4 lg:px-7">
             <h2 className="text-xl text-center text-neutral-800 dark:text-neutral-100 font-medium border-b-2 border-neutral-200 dark:border-neutral-800/40 pb-3 mb-4">
               Your Booking Status
             </h2>
@@ -79,7 +79,7 @@ const Checkout = () => {
                   Your Destination
                 </h6>
 
-                <div className="w-full flex items-center gap-x-3">
+                <div className="w-full flex flex-col lg:flex-row items-start lg:items-center gap-x-3">
                   <div className="w-fit text-base font-medium">
                     From:- <span className="ml-1.5">Akola</span>
                   </div>
@@ -93,7 +93,7 @@ const Checkout = () => {
                   </div>
                 </div>
 
-                <div className="w-full flex items-center gap-x-3">
+                <div className="w-full flex flex-col lg:flex-row items-start lg:items-center gap-x-3">
                   <div className="w-fit text-base font-medium">
                     Arrive at:- <span className="ml-1.5">07:30 PM</span>
                   </div>
@@ -133,8 +133,8 @@ const Checkout = () => {
               </div>
             </div>
             <button className="w-full px-8 h-12 bg-red-600 text-neutral-50 text-base font-normal rounded-md flex items-center justify-center gap-x-2">
-            Proceed to Pay <FaArrowRightLong />
-          </button>
+              Proceed to Pay <FaArrowRightLong />
+            </button>
           </div>
         </div>
       </div>

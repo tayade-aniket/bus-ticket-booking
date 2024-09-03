@@ -2,10 +2,10 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div className="w-full lg:px-28 md:px-16 sm:px-7 px-4 my-[8ch]">
+    <div className="w-full px-4 my-[8ch] sm:px-7 md:px-16 lg:px-28">
       <div className="w-full bg-neutral-100 rounded-md dark:bg-neutral-900/40 p-8">
-        <div className="grid grid-cols-3 gap-x-10 gap-y-12 items-end">
-          <div className="">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 items-end">
+          <div>
             <label htmlFor="from" className="block mb-2 font-semibold">
               From
             </label>
@@ -39,7 +39,7 @@ const Search = () => {
             </select>
           </div>
 
-          <div className="">
+          <div>
             <label htmlFor="to" className="block mb-2 font-semibold">
               To
             </label>
@@ -73,7 +73,7 @@ const Search = () => {
             </select>
           </div>
 
-          <div className="">
+          <div>
             <label htmlFor="date" className="block mb-2 font-semibold">
               Choose Date
             </label>
@@ -85,7 +85,7 @@ const Search = () => {
             />
           </div>
 
-          <div className="">
+          <div>
             <label htmlFor="time" className="block mb-2 font-semibold">
               Choose Time
             </label>
@@ -97,7 +97,7 @@ const Search = () => {
             />
           </div>
 
-          <div className="">
+          <div>
             <label htmlFor="seat" className="block mb-2 font-semibold">
               Total Seats
             </label>
@@ -110,8 +110,8 @@ const Search = () => {
             />
           </div>
 
-          <div className="">
-            <button className="w-full px-4 h-12 bg-red-600 text-neutral-50 text-base font-normal rounded-md">
+          <div className="col-span-1 sm:col-span-2 md:col-span-3 flex items-center justify-center">
+            <button className="sm:w-1/4 px-4 h-12 bg-red-600 text-neutral-50 text-base font-normal rounded-md">
                 Check Availability
             </button>
           </div>
